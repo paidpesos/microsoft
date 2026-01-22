@@ -34,7 +34,7 @@ class Microsoft:
         LoginParams = self.get(email, proxy)
         if not LoginParams:
             print("microsoft is a bitch")
-            return self.Response(Status.Retry, None, None)
+            return (Status.Retry, None, None)
 
         a1, ppft, msprequ, uaid, mspok, oparams = LoginParams
 
