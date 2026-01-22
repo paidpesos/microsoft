@@ -1,3 +1,25 @@
-# microsoft
+# Microsoft checker
+Used to check if a microsoft account is valid or not
 
-Will capture if a microsoft account is valid or not (will put later depending on stuff)
+# Features
+
+```
+Login | Logs in account and returns a tuple
+```
+
+# Usage
+
+```
+Used at the bottom such as
+c = Microsoft()
+status = c.auth("email", "password")
+print(status)
+```
+
+# Coming soon
+
+```
+Adding multi threaded checking (like 2 stars)
+Proxy support (with the multi threaded checking)
+Capture (either inbox, or microsoft rewards balance)
+```
