@@ -23,3 +23,9 @@ Adding multi threaded checking (like 2 stars)
 Proxy support (with the multi threaded checking)
 Capture (either inbox, or microsoft rewards balance)
 ```
+
+# DISCLAMER
+
+```
+THIS TOOL IS FOR EDUCATIONAL USES ONLY THE DEV (PAIDPESOS/PAIDUSD) DOES NOT TAKE ANY BLAME FOR HOW YOU USE THIS TOOL.
+```
