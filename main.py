@@ -56,7 +56,7 @@ class Microsoft:
                 "Referer": a1,
                 "Accept-Encoding": "gzip, deflate",
                 "Accept-Language": "en-US,en;q=0.9",
-                "Cookie": f"MSPRequ={msprequ}; uaid={uaid}; RefreshTokenSso=; MSPOK={mspok}; OParams={oparams};"
+                "Cookie": f"MSPRequ={msprequ}; uaid={uaid}; MSPOK={mspok}; OParams={oparams};"
             }, data=f"i13=1&login={email}&loginfmt={email}&type=11&LoginOptions=1&lrt=&lrtPartition=&hisRegion=&hisScaleUnit=&passwd={password}&ps=2&psRNGCDefaultType=&psRNGCEntropy=&psRNGCSLK=&canary=&ctx=&hpgrequestid=&PPFT={ppft}&PPSX=PassportR&NewUser=1&FoundMSAs=&fspost=0&i21=0&CookieDisclosure=0&IsFidoSupported=0&isSignupPost=0&isRecoveryAttemptPost=0&i19=9960", allow_redirects=False, proxies=proxy)
             
         if "JSH" in r.cookies or "JSHP" in r.cookies or "ANON" in r.cookies or "WLSSC" in r.cookies or "https://login.live.com/oauth20_desktop.srf?" in r.url or "fntobu-y" in r.text:
